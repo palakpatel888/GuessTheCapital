@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //comment
         setContentView(R.layout.activity_main);
         getSupportActionBar().setTitle("CapitalQuiz");
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.titleBlue)));
